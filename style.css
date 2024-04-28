@@ -1,0 +1,262 @@
+.nav-end {
+  margin-left: 16rem;
+}
+.button {
+  background: #dc3635;
+  color: white;
+  width: 120px;
+  height: 33px;
+  font-size: 13px;
+  border-radius: 0 !important;
+  font-family: motserrant;
+  transition: transform 0.5s ease-in;
+}
+.button:hover {
+  background: #dc3635;
+  color: white;
+  transform: scale(0.9);
+}
+.img-width {
+  width: 8rem;
+}
+.nav-item a {
+  font-family: motserrant;
+  font-size: 13px;
+  color: white;
+}
+
+.pr {
+  position: relative;
+  top: -99px;
+}
+.hero {
+  padding: 127px 40px;
+  background: url(images/young-content-creator-smiling-blonde-girl-with-headphones-working-her-laptop-table-with-camera\ 1.svg)
+    no-repeat;
+  background-position: center !important;
+  background-size: cover !important;
+}
+@font-face {
+  font-family: motserrant;
+  src: url(fonts/static/Montserrat-Medium.ttf);
+}
+.font {
+  font-family: motserrant;
+}
+.button-1 {
+  background: white;
+  color: black;
+  width: 120px;
+  height: 33px;
+  font-size: 13px;
+  border-radius: 0 !important;
+  font-family: motserrant;
+  transition: transform 0.5s ease-in;
+}
+.button-1:hover {
+  background: white;
+  color: black;
+  position: relative;
+  transform: scale(0.9);
+}
+.c1 {
+  color: #dc3635;
+}
+main {
+  margin-left: 5rem;
+  margin-top: 5rem;
+  width: 56%;
+  height: 100%;
+}
+main h1 {
+  font-size: 67px;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+.h3 {
+  color: white;
+  font: 40px;
+  font-weight: 600;
+}
+main p {
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+}
+.about {
+  font-weight: 700;
+}
+h6 {
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+h6 img {
+  width: 31rem;
+}
+.cont {
+  margin-top: 10rem;
+}
+.sec-b {
+  padding: 54px;
+  margin-right: 0 !important;
+  overflow: hidden !important;
+  background: black !important;
+  color: white !important;
+}
+.sec-c {
+  margin-top: 5rem;
+}
+.card-1 {
+  background: #ffecec;
+  color: black;
+  padding: 2rem 1rem 15rem 1rem;
+
+  transition: transform 0.5s ease;
+}
+.card-1:hover {
+  transform: scale(1.1);
+}
+.card-title {
+  font-weight: 700;
+}
+.card-text {
+  font-weight: 400;
+  font-size: 14px;
+}
+.cont-1 h1 {
+  font-weight: 650;
+}
+.cont-1 {
+  margin-bottom: 4rem;
+}
+.c2 {
+  background: #ffecec;
+  color: black;
+  font-weight: 500;
+  border: 0;
+}
+.c12 {
+  background: #dc3635;
+  color: white;
+  font-weight: 500;
+  border: 0;
+}
+.ml-01 {
+  margin-left: -174px;
+  gap: 11.5rem !important;
+}
+.card-2 {
+  background: none;
+  color: white;
+  transition: transform 0.5s ease;
+}
+.card-2:hover {
+  transform: scale(1.1);
+}
+.g1 {
+  margin-top: 3rem;
+}
+.inp {
+  width: 473px;
+  height: 50px;
+  border-radius: 8px;
+  border: 0;
+  font-family: motserrant;
+}
+.inp::placeholder {
+  padding: 40px 12px;
+}
+.button-2 {
+  background: #dc3635;
+  width: 181px;
+  height: 50px;
+  border: 0;
+  border-radius: 8px;
+  color: white;
+}
+.text-white {
+  color: white;
+}
+.nav-item a i {
+  font-size: 26px;
+}
+.fss {
+  font-size: 17px !important;
+  margin-top: 3rem;
+}
+.last {
+  color: white !important;
+}
+.BG {
+  overflow: hidden !important;
+  background: black;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0 !important;
+  box-sizing: border-box;
+}
+@media screen and (min-width: 300px) and (max-width: 480px) {
+  .hero {
+    width: 51rem;
+    overflow-x: hidden !important;
+  }
+  .about {
+    width: 40rem;
+  }
+  .sec-b {
+    overflow-y: hidden !important;
+    width: 817px;
+    box-sizing: border-box;
+  }
+  .cont {
+    width: 120%;
+    margin-top: 4rem;
+  }
+  .in-secb {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .ml-01 {
+    margin-left: 0;
+  }
+  .box > div {
+    gap: 8rem !important;
+  }
+  .h {
+    display: none;
+  }
+  .nav-end {
+    margin-left: 0 !important;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .cont {
+    margin-top: 0;
+  }
+  h6 img {
+    width: 21rem;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1279px) {
+  .cont {
+    margin-top: 0;
+  }
+  .nav-end {
+    margin-left: 0 !important;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .sec-b .container {
+    max-width: 200% !important;
+  }
+  .ml {
+    width: 679px;
+  }
+  .nav-item a {
+    font-size: 33px;
+  }
+}
